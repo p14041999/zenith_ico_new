@@ -1,0 +1,46 @@
+/*================================================================================
+	Item Name: Crypto ICO - Cryptocurrency Website Landing Page HTML Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.head-area .logo-wrapper .crypto-logo .crypto-logo-img {
+  position: absolute;
+  left: 36%;
+  top: 37%;
+  width: 70px;
+}
+
+#demo {
+  color: white;
+  font-size: 47px;
+}
+#video {
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .head-area .logo-wrapper .crypto-logo .crypto-logo-img {
+    position: absolute;
+    left: 21% !important;
+    top: 22% !important;
+    width: 70px;
+  }
+  #demo {
+    color: white;
+    font-size: 37px;
+    padding: 10px 0;
+  }
+  .head-area .head-content {
+    height: 111vh !important;
+  }
+  .fgd {
+    flex-direction: column-reverse !important;
+  }
+}
